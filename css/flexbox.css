@@ -1,3 +1,4 @@
+ /* CSS da Nav*/
 .cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
@@ -8,6 +9,17 @@
     display: flex;
 }
 
+
+    /* CSS do Map Course*/
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 250px;
+} 
+
+    /* CSS do Footer*/
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     align-items: center;
