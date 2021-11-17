@@ -254,7 +254,6 @@ body {
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 0;
 	}
-
 }
 
 @media(min-width: 1000px) {
