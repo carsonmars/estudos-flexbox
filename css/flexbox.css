@@ -63,7 +63,7 @@
 }
 
     /*CSS para Mobile*/
-@media(max-widht: 768px) {
+@media(max-width: 768px) {
     /* CSS do Header*/
     .cabecalhoPrincipal-nav {
         flex-direction: column;
@@ -106,5 +106,9 @@
 
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
+    }
+
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1;
     }
 }
