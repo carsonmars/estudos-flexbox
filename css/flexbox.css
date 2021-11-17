@@ -12,11 +12,12 @@
 .conteudoPrincipal-cursos {
     display: flex;
     flex-flow: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+       
 }
 
 .conteudoPrincipal-cursos-link {
-    width: 23%;
+    width: 23.3%;
     margin: 1%;
 }
 
