@@ -28,7 +28,25 @@
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
     margin-left: 0;
 }
+    /* CSS do Vídeo*/
+.videoSobre .container {
+    display: flex;
+}
 
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+    flex-shrink: 2;
+}
 
     /* CSS do Map Course*/
 .rodapePrincipal-navMap-list {
@@ -62,7 +80,7 @@
     display: flex;
 }
 
-    /*CSS para Mobile*/
+/*CSS para Mobile*/
 @media(max-width: 768px) {
     /* CSS do Header*/
     .cabecalhoPrincipal-nav {
@@ -82,6 +100,13 @@
 
     .conteudoPrincipal-cursos-link {
         width: 100%;
+    }
+        /* CSS do Vantagens do Alurinha */
+    .videoSobre .container {
+        flex-direction: column;
+    }
+    .videoSobre-video {
+        margin: 0 auto;
     }
 
         /* CSS do MapCourse*/
